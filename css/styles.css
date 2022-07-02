@@ -91,6 +91,8 @@ h6{margin-top:0;
 
  }
 
+
+
  .item-list {
     list-style: none;
     align-items: center;
@@ -201,11 +203,18 @@ h6{margin-top:0;
 .contact-nav:hover,
 .contact-nav:focus
 .email-nav:hover,
-.email-nav:focus
-
+.email-nav:focus,
+.icon-nav.contact:hover,
+.icon-nav.contact:focus,
  {
     color: var(--accent-color);
 }
+
+.icon-nav.contact {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 
 .page .container {
     background-color: #FFFFFF;
@@ -240,6 +249,8 @@ h6{margin-top:0;
     letter-spacing: 0.06em;
 
 }
+
+
 
 .button-primary {
     color: var(--title-hero);
@@ -349,6 +360,7 @@ h6{margin-top:0;
 
 .image {
     margin-right: 30px;
+    
 }
 
 .team {
@@ -366,6 +378,7 @@ h6{margin-top:0;
 .team-list {
     padding-top: 30px;
     padding-bottom: 30px ;
+    
 }
 
 .team-name {
@@ -379,6 +392,95 @@ h6{margin-top:0;
     letter-spacing: 0.03em;
     margin: 0px;
 }
+
+.social-list.list {
+    justify-content: center;
+    padding-top: 16px;
+    border-radius: 50%;
+
+}
+
+.regular-customers {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+ .customers-list {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+
+ }
+
+.customer {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;}
+
+
+.icon-border {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    margin-right: 30px;
+    justify-content: center;
+    align-items:center;
+ }
+
+.join-us {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.03em;
+     margin-right: auto;
+    margin-left: auto;
+
+}
+
+.join-icon {
+    padding-right: 10px;
+   
+}
+
+.join {
+    display: flex;  
+}
+
+
+.join.link-icon {
+    display: block;
+    padding: 12px;
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.footer-join 
+{display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    padding-top: 12px;   
+}
+ .footer-info  {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .icon-menu {
+    display: flex;
+ }
 
 .logo-white {
     color: var(--title-hero);
@@ -397,6 +499,9 @@ h6{margin-top:0;
     padding-top: 60px;
     padding-bottom: 60px;
     color: var(--title-text-color);
+    display: flex;
+    margin-left: auto;
+    
 }
 
 .address {
