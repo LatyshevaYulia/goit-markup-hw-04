@@ -108,6 +108,7 @@ h6{margin-top:0;
     padding: 0;
     margin: 0;
     display: flex;
+    
 }
 
 .icon-list::before {
@@ -209,8 +210,12 @@ h6{margin-top:0;
     color: var(--accent-color);
 }
 
-.contact-list.item-list:hover.icon-contact,
-.contact-list.item-list:focus.icon-contact {
+.contact-list:hover,
+.contact-list:focus
+.item-list:hover,
+.item-list:focus
+.icon-contact:hover,
+.icon-contact:focus{
     color: var(--accent-color);
 } 
  
@@ -232,10 +237,11 @@ h6{margin-top:0;
     background-color: #FFFFFF;
 }
 
-.hero {
+.company {
     background-color: #212121;
     background-image: linear-gradient(
         to right,
+        rgba(47, 48, 58, 0.4)
         rgba(47, 48, 58, 0.4)
     );
     background-image: url(../images/heroImg\ \(4\).jpg);
@@ -247,6 +253,7 @@ h6{margin-top:0;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    box-shadow: 0px 4px 4px  rgba (0,0,0,0.25);
 
 }
 
@@ -280,6 +287,8 @@ h6{margin-top:0;
     letter-spacing: 0.06em;
     display: block;
     margin: 0 auto;
+    box-shadow: 0px 4px 4px  rgba (0,0,0,0.15);
+    cursor: pointer;
 
 }
 .benefits {
@@ -298,9 +307,10 @@ h6{margin-top:0;
 
 
 .co-worker {
-    padding-top: 0px;
-    padding-bottom: 0px; 
+    padding-top: 0px; 
     display: block;
+    background-color: #F5F4FA;
+    padding-bottom: 0px;
 }
 
 .social-list{
@@ -415,6 +425,10 @@ h6{margin-top:0;
 
 .image {
     margin-right: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #FFFFFF;
+    
     
 }
 
@@ -433,6 +447,10 @@ h6{margin-top:0;
 .team-list {
     padding-top: 30px;
     padding-bottom: 30px ;
+    border-left: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    background-color: #FFFFFF;
     
 }
 
@@ -456,8 +474,9 @@ h6{margin-top:0;
 }
 
 .regular-customers {
-    padding-top: 94px;
+    padding-top: 188px;
     padding-bottom: 94px;
+    background-color: #FFFFFF;
 }
 
  .customers-list {
@@ -520,7 +539,7 @@ h6{margin-top:0;
     font-size: 14px;
     line-height: 1.14px;
     letter-spacing: 0.03em;
-     margin-right: auto;
+    margin-right: auto;
     margin-left: auto;
 
 }
