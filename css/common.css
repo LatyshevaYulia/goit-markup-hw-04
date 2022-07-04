@@ -119,6 +119,12 @@ h6{
 
 }
 
+.company-list:hover,
+.company-list:focus
+{
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 
 .button-list {
@@ -170,6 +176,13 @@ h6{
      1px 4px 6px  rgba(0,0,0,0.16);
 
     
+}
+
+.imgs {
+    margin-bottom: 30px;
+    box-shadow: 1px 1px  rgba(0,0,0,0.12), 0px 4px 4px  rgba(0,0,0,0.06),
+     1px 4px 6px  rgba(0,0,0,0.16);
+
 }
 
 .img:last-child {
@@ -359,4 +372,3 @@ h6{
 .phone-nav:focus {
     color: var(--accent-color);
 }
-
