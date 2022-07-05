@@ -3,6 +3,7 @@
     --title-text-color:#212121;
     --accent-color:#2196F3;
     --title-hero:#FFFFFF;
+    --icon:#AFB1B8;
  }
 
  html {
@@ -256,18 +257,18 @@ h6{margin-top:0;
 
 .icon:hover,
 .icon:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 
 
 
 .page .container {
-    background-color: #FFFFFF;
+    background-color: var(--title-hero);
 }
 
 .company {
-    background-color: #212121;
+    background-color: var(--title-text-color);
     background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4)
@@ -309,7 +310,7 @@ h6{margin-top:0;
     text-align: center;
     border: 1px solid transparent;
     font-family: 'Roboto';
-    background-color: #2196F3;
+    background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -358,29 +359,34 @@ h6{margin-top:0;
 .links {
     border-radius: 100%;
     display:flex;
- }
-
-.twitter-1{
-    margin-right: 0px;
-    fill: #AFB1B8;}
-    
-
-
-.link-list{
-     border-radius: 50%;
     width: 44px;
     height: 44px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 10px;
-    color: #757575;
-   } 
+    color: var(--primary-text-color);
 
-.link-list:hover,
-.link-list:focus {
-    background-color: #2196F3;
-    color: #FFFFFF;}
+ }
+
+.twitter-1{
+    margin-right: 0px;
+    fill: var(--icon);
+}
+    
+.twitter-1:hover,
+.twitter-1:focus
+{background-color: var(--accent-color);
+fill: #FFFFFF;
+}
+
+
+.links:hover,
+.links:focus
+ {
+    background-color: var(--accent-color);
+    fill:#FFFFFF;
+border-radius: 100%;}
 
 
 .section-title {
@@ -454,7 +460,7 @@ h6{margin-top:0;
     margin-right: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-    background-color: #FFFFFF;
+    background-color: var(--title-hero);
     
     
 }
@@ -503,7 +509,7 @@ h6{margin-top:0;
 .regular-customers {
     padding-top: 94px;
     padding-bottom: 94px;
-    background-color: #FFFFFF;
+    background-color: var(--title-hero);
 }
 
  .customers-list {
@@ -549,17 +555,17 @@ h6{margin-top:0;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #AFB1B8;
+    color: var(--icon);
     width:100px;
     height:100px;
-    border: 1px solid #AFB1B8;
+    border: 1px solid var(--icon);
     border-radius: 4px;
     width: 170px;
     height: 92px;
 
 }
 .join-us {
-    color: #FFFFFF;
+    color: var(--title-hero);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -581,14 +587,14 @@ h6{margin-top:0;
     justify-content: center;
     align-items: center;
     margin: 0px;
-    color: #757575;
+    color: var(--primary-text-color);
   
    
 }
 
 .join-icon:hover,
 .join-icon:focus {
-    background-color: #757575;
+    background-color: var(--primary-text-color);
     color: #FFFFFF;
     justify-content: center;
     align-items: center;
@@ -607,7 +613,7 @@ h6{margin-top:0;
 }
 
 .join-link {
-    fill: #FFFFFF;
+    fill: var(--title-hero);
     justify-content: center;
     align-items: center;
     display: flex;
@@ -701,7 +707,7 @@ h6{margin-top:0;
 
 .street-nav:hover,
 .street-nav:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .emal-nav {
