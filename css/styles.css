@@ -106,8 +106,6 @@ h6{margin-top:0;
 
 .list {
     list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
     
 }
@@ -336,8 +334,8 @@ h6{margin-top:0;
     padding-bottom: 94px;}
 
 
-.co-worker {
-    padding-top: 0px; 
+.co-worker { 
+    padding-top: 0;
     padding-bottom: 0px;
     display: block;
     background-color: #F5F4FA;
@@ -347,13 +345,18 @@ h6{margin-top:0;
 .social-list{
     display: flex;
     margin-left: 10px;
-    padding-bottom: 0px;
     width: 100%;
-  height: 100%;
-  color: var(--accent-color);
-  border-radius: 50%;
+    height: 100%;
+    color: var(--accent-color);
+    border-radius: 50%;
+    
 }
 
+.social-list.list {
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
 
 
 .links {
@@ -365,13 +368,15 @@ h6{margin-top:0;
     justify-content: center;
     align-items: center;
     margin-left: 10px;
+    padding-right: 0px;
     color: var(--primary-text-color);
 
  }
 
 .twitter-1{
-    margin-right: 0px;
     fill: var(--icon);
+    align-items: center;
+    
 }
     
 .twitter-1:hover,
@@ -528,6 +533,7 @@ border-radius: 100%;}
     list-style: none;
     display: flex;
     justify-content: center;
+  
     
      
 }
@@ -623,10 +629,16 @@ border-radius: 100%;}
 }
 
 .link-icon {
+    
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
+   
     
+}
+
+.join-link {
+    margin: 10px;
 }
 
 .join.link-icon {
