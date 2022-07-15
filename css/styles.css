@@ -40,7 +40,6 @@ body {
 }
 
 
-
 img {
   display: block;
   max-width: 100%;
@@ -55,15 +54,23 @@ img {
   max-width: 1200px;
 }
 
+
 .header{
     border-bottom: 1px solid #ececec;
+}
+
+.link.current{
+    color: var(--accent-color);
+}
+
+.header-nav a:hover
+{ color: var(--accent-color);
 }
 
 .link {
   text-decoration: none;
   color: inherit;
 }
-
 
 .address {
     font-style: normal;
@@ -80,7 +87,6 @@ img {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-
 
 .logo-color {
     color: var(--accent-color);
@@ -107,6 +113,8 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
+
 
 .header-nav {
   display: flex;
@@ -139,8 +147,8 @@ color: #2196F3;
   letter-spacing: 0.02em;
 }
 
-.header-nav .link:hover,
-.header-nav .link:focus {
+.header-nav.link:hover,
+.header-nav.link:focus {
   color: var(--accent-color);
 }
 
@@ -186,11 +194,6 @@ color: #2196F3;
     color: var(--accent-color);
 }
 
-
-
-
-
-
 .icon-contact:hover,
 .icon-contact:focus
     {color: var(--accent-color);
@@ -201,73 +204,20 @@ color: #2196F3;
 } 
 
 
-.icon-contact {
-  margin-right: 10px;
-  fill: currentColor;
-}
-
-.icon:hover,
-.icon:focus {
-    color: var(--accent-color);
-}
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-.link {
-  text-decoration: none;
-  color: inherit;
-}
-
-.img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-.address {
-    font-style: normal;
-}
-
-.logo {
-    color: var(--title-text-color);
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    text-decoration: none;
-    letter-spacing: 0.03em;
-
-}
-
-.logo-color {
-    color: var(--accent-color);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-}
 
 .container {
-    width: 1200px;
+    width:1200px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 15px;
-    
- }
+    padding:0 15px;
+}
+
 
 
  .header.container {
@@ -518,12 +468,10 @@ color: #2196F3;
 
 }
 .benefits {
-    color:var(--title-hero)
-}
-
-.benefits {
+    color:var(--title-hero);
     display: none;
 }
+
 .section {
     padding-top: 94px;
     padding-bottom: 0px;
@@ -551,15 +499,11 @@ color: #2196F3;
 }
 
 
-
 .twitter-1{
     align-items: center;
       
 }
     
-
-
-
 .section-title {
     color: var(--title-text-color);
     margin-bottom: 10px;
